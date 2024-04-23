@@ -1,0 +1,26 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 10%;
+    width: 100%;
+    background: #dddddd;
+}
+
+.title {
+    font-size: 32px;
+    font-weight: 800;
+}
+.loginButton {
+    padding: 8px 16px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #607d8b; /* Blue-grey color */
+    color: white;
+    cursor: pointer;
+}
+
+.loginButton:hover {
+    background-color: #455a64; /* Darker shade on hover */
+}

@@ -1,0 +1,143 @@
+/* Add CSS */
+
+/* Add global CSS here */
+/* Add CSS stylesheet */
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+    height: 99%;
+}
+
+body,
+#root {
+    height: 100%;
+}
+.login-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.login-form {
+  background-color: #ffffff;
+  padding: 40px; /* Increase padding for better spacing */
+  border-radius: 10px; /* Increase border-radius for a softer look */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Increase box shadow for depth */
+  width: 100%; /* Ensure form fills its container */
+  max-width: 400px; /* Limit form width for better readability */
+}
+
+.login-title {
+  color: #0077cc;
+  margin-bottom: 30px; /* Increase margin bottom for better separation */
+  font-size: 24px; /* Increase font size for emphasis */
+  text-align: center; /* Center-align the title */
+}
+
+.form-group {
+  margin-bottom: 30px; /* Increase margin bottom for better spacing */
+}
+
+.form-label {
+  display: block;
+  margin-bottom: 10px; /* Increase margin bottom for better separation */
+  color: #444;
+  font-size: 16px; /* Maintain font size */
+}
+
+.form-input {
+  width: 100%;
+  padding: 15px; /* Increase padding for better input field size */
+  border-radius: 6px; /* Increase border radius for softer edges */
+  border: 1px solid #ccc;
+  font-size: 16px; /* Maintain font size */
+}
+
+.login-button {
+  background-color: #0077cc;
+  color: #ffffff;
+  padding: 15px 20px; /* Increase padding for better button size */
+  border-radius: 6px; /* Increase border radius for softer edges */
+  border: none;
+  cursor: pointer;
+  font-size: 16px; /* Maintain font size */
+  width: 100%; /* Ensure button fills its container */
+}
+
+.login-button:hover {
+  background-color: #005ea6; /* Darken color on hover for better feedback */
+}
+
+  .create-account-button {
+    background-color: #607d8b; /* Blue-grey color */
+    color: #fff; /* White text color */
+    padding: 15px 20px; /* Increase padding for better button size */
+    border-radius: 6px; /* Increase border radius for softer edges */
+    border: none;
+    cursor: pointer;
+    font-size: 16px; /* Maintain font size */
+    width: 100%; /* Ensure button fills its container */
+    margin-top: 20px;
+  }
+
+
+
+.create-account-button:hover {
+    background-color: #455a64; /* Darken color on hover */
+}
+.create-account-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Use min-height to ensure the container fills the viewport */
+  background-color: #f0f2f5;
+}
+
+.create-account-form {
+  background-color: #ffffff;
+  padding: 40px; /* Increase padding for better spacing */
+  border-radius: 10px; /* Increase border-radius for a softer look */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Increase box shadow for depth */
+  max-width: 400px; /* Limit form width for better readability */
+  width: 100%; /* Ensure form fills its container */
+}
+
+.create-account-title {
+  margin-bottom: 30px; /* Increase margin bottom for better separation */
+  color: #37474f; /* Blue-grey text color */
+  font-size: 24px; /* Increase font size for emphasis */
+  text-align: center; /* Center-align the title */
+}
+
+.form-group {
+  margin-bottom: 30px; /* Increase margin bottom for better spacing */
+}
+
+.form-label {
+  display: block;
+  margin-bottom: 10px; /* Increase margin bottom for better separation */
+  color: #546e7a; /* Blue-grey text color */
+  font-size: 16px; /* Maintain font size */
+}
+
+.form-input {
+  width: 100%;
+  padding: 15px; /* Increase padding for better input field size */
+  border: 1px solid #ccc;
+  border-radius: 6px; /* Increase border radius for softer edges */
+  font-size: 16px; /* Maintain font size */
+}
+
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-top: 10px; /* Increase margin top for better spacing */
+  text-align: center; /* Center-align error messages */
+}

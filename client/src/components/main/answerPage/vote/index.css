@@ -1,0 +1,38 @@
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.button {
+    /* Your button base styles */
+    padding: 0.5rem 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f0f0f0;
+    cursor: pointer;
+}
+
+.upvote, .downvote {
+    /* Your button specific styles */
+    /* You can customize this as needed */
+    color: #333;
+}
+
+.pressed {
+    /* Styles for pressed button state */
+    background-color: #ccc;
+}
+
+.ml-2 {
+    /* Margin left 2 units */
+    margin-left: 0.5rem;
+}
+
+/* Optional: If you want to style the count */
+.count {
+    /* Your count specific styles */
+}
