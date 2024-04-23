@@ -4,7 +4,7 @@ import { downvoteAnswer,  upvoteAnswer } from '../../../../services/answerServic
 import "./index.css";
 
 
-const voteComponent = ({ item,category,isLoggedIn,setShowLoginPage}) => {
+const VoteComponent = ({ item,category,isLoggedIn,setShowLoginPage}) => {
     const [count, setCount] = useState(0);
 
     const [voted, setVoted] = useState(0); // 0 for not voted, 1 for upvote, -1 for downvote
@@ -91,4 +91,4 @@ const voteComponent = ({ item,category,isLoggedIn,setShowLoginPage}) => {
     );
 };
 
-export default voteComponent;
+export default VoteComponent;
